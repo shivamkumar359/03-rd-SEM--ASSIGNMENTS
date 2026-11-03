@@ -1,0 +1,45 @@
+TASK 1: MODEL PERFORMANCE AND BIAS-VARIANCE ANALYSIS
+====================================================
+
+1. UNDERFITTING (HIGH BIAS)
+
+Model complexity range: 1 to 4
+
+In this region, the model has insufficient capacity to
+capture the underlying data pattern. Both training and
+validation errors remain relatively high.
+
+2. OVERFITTING (HIGH VARIANCE)
+
+Model complexity range: Not clearly identified
+
+In this region, the model fits training data closely but
+performs poorly on unseen validation data. This indicates
+high variance and poor generalization.
+
+3. OPTIMAL MODEL COMPLEXITY
+
+Optimal polynomial degree: 8
+
+Minimum validation error: 0.042181
+
+The optimal capacity is identified by the minimum
+validation error.
+
+4. BIAS-VARIANCE DECOMPOSITION
+
+Bias Squared:       0.000221
+Variance:           0.007503
+Irreducible Error:  0.040000
+
+Total Prediction Error = Bias Squared + Variance
+                         + Irreducible Error
+
+Total Prediction Error: 0.047724
+
+The model achieves a balance between bias and variance
+at the selected optimal complexity. The irreducible
+error represents the inherent noise in the data.
+
+====================================================
+END OF REPORT
